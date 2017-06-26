@@ -6,5 +6,5 @@ import router from './routes';
 
 render(
 	router,
-    document.getElementById('apollo')
+    document.getElementById('etherspin')
 );

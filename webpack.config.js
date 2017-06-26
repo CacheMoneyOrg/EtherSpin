@@ -18,7 +18,7 @@ module.exports = {
     output: {
         path: path.join(__dirname, '/public'),
         publicPath: '/',
-        filename: 'apollo-core.js'
+        filename: 'etherspin-core.js'
     },
     devServer: {
         contentBase: './public',
