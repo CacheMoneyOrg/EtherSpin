@@ -1,0 +1,51 @@
+.content-container {
+	position: relative;
+	background: white;
+	width: 100%;
+	height: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+	.content-top {
+		padding-bottom: 15px;
+	}
+	
+	.content-bottom {
+		padding-bottom: 15px;
+	}
+		
+	.latest-bets-container {
+		height: 300px;
+	}
+
+	.latest-bets-header {
+		height: 35px;
+		border: 1px solid #ddd;
+	}
+
+	.latest-bets-timeline {
+		border: 1px solid #ddd;
+		height: 265px;
+	}
+
+	.place-bets-container {
+		height: 300px;
+	}
+
+	.place-bets-timeline {
+		border: 1px solid #ddd;
+		height: 300px;
+	}
+		
+	.board-container {
+		border: 1px solid #ddd;
+		height: 300px;
+	}
+
+	.spinner {
+		height: 225px;
+		width: 225px;
+		border-radius: 50%;
+		background: #ddd;
+	}
+}
