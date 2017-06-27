@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Board from '../Board';
 
 class Home extends Component {
 	render(){
@@ -39,7 +40,7 @@ class Home extends Component {
 						<div className="row">
 							<div className="col-xs-8 col-sm-8 col-md-8">
 								<div className="board-container">
-									board
+									<Board />
 								</div>
 							</div>
 							<div className="col-xs-4 col-sm-4 col-md-4">

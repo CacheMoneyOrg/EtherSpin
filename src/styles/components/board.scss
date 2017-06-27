@@ -1,0 +1,111 @@
+:root {
+    --heightOfSquare: 45px;
+}
+
+.board-container {
+    position: relative;
+    background: green;
+    height: 175px;
+    width: 490px;
+
+    .square-container {
+        position: absolute;
+        height: 35px;
+        width: 35px;
+        text-align:  center;
+        color: white;
+    }
+    .rectangle-container {
+        position: absolute;
+        width: 35px;
+        height: 52.5px;
+        border: 1px solid;
+        border-color: white;
+        color: white;
+        text-align: center;
+    }
+    .r00 {
+        top: 0px;
+        left: 0px;
+    }
+    .r0 {
+        left: 0px;
+        top: 52.5px;
+    }
+    .red {
+        background: red;
+    }
+    .black {
+        background: black;
+    }
+    .green {
+        background: green;
+        border: 1px solid;
+        border-color: white;
+        color: white;
+    }
+    .row1 {
+        left: 35px;
+    }
+    .row2 {
+        left: 70px;
+    }
+    .row3 {
+        left: 105px;
+    }
+    .row4 {
+        left: 140px;
+    }
+    .row5 {
+        left: 175px;
+    }
+    .row6 {
+        left: 210px;
+    }
+    .col1 {
+        top: 0px;
+    }
+    .col2 {
+        top: 35px;
+    }
+    .col3 {
+        top: 70px;
+    }
+    .row7 {
+        left: 245px;
+    }
+    .row8 {
+        left: 280px;
+    }
+    .row9 {
+        left: 315px;
+    }
+    .row10 {
+        left: 350px;
+    }
+    .row11 {
+        left: 385px;
+    }
+    .row12 {
+        left: 420px;
+    }
+    .row13 {
+        left: 455px;
+    }
+    
+    .rectangle-horizontal {
+        position: absolute;
+        width: 140px;
+        height: 35px;
+        top: 105px;
+        text-align: center;
+    }
+
+    .group-bet {
+        position: absolute;
+        width: 70px;
+        height: 35px;
+        top: 140px;
+        text-align: center;
+    }
+}
