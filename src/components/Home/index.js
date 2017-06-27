@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import HomeContainer from '../containers/Home';
 
 class Home extends Component {
 	render(){
-		return (
-			<HomeContainer />	
+		return(
+			<div>Etas;ldkfjas;df</div>	
 		);
 	}
 }

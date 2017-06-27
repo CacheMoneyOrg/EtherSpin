@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import AppContainer from '../containers/AppContainer';
+import AppContainer from '../containers/App';
 
 export default class App extends Component {
 	render(){
